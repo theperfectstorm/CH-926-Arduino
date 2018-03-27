@@ -1,7 +1,7 @@
 // DavidMaitland.me 2015
 // See LICENSE file for licensing details
 
-const int coinSelector = A0; // Analog input pin that the coin selector uses
+const int coinSelector = A0; // Connect the pulse output to analog 0
 const int signalCostFactor = 5; // Each signal pulse is worth 5p
 
 int signalValue = 0; // For storing value from analog input
